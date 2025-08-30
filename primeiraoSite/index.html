@@ -4,46 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content ="width=device-width, initial-scale=1.0">
   <title>Meu Primeiro Site HTML</title>
+   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet"  type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libertinus+Serif+Display&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Story+Script&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+
+
 
 </head>
 
 <body>
-  <h1>Introdução ao HTML</h1>
-     <p>HTML é uma linguagem de marcação padrão para criar páginas da web</p>
+   <header>
+    <nav>
+       <p>etec</p>
+    </nav>
+   </header>
 
-  <h2>O que é HTML</h2>
-     <ul>
-         <li>HTML significa Linguagem de Marcação de Hipertexto</li>
-         <li>HTML é a linguagem de marcação padrão para criar páginas da Web.</li>
-         <li>HTML descreve a estrutura de uma página da Web</li>
-         <li>HTML consiste em uma série de elementos</li>
-         <li>Elementos HTML dizem ao navegador como exibir o conteúdo</li>
-         <li>Elementos HTML rotulam partes do conteúdo, como "este é um cabeçalho", "este é um parágrafo", "este é um link", etc.</li>
-    </ul>
 
-  <h2>Tipo de CSS</h2>   
-    <ul>
-         <li>Inline - usando o atributo style dentro dos elementos HTML</li>
-         <li>Interno - usando um elemento style na seção head.</li>
-         <li>HExterno - usando um elemento link para vincular a um arquivo CSS externoTML descreve a estrutura de uma página da Web</li>
-    </ul>
+  <div class="container"> <!--div pai-->
+    <div>
 
-  <h2>Estrutura Básica do HTML</h2>
+       <h1 class="titulos">Introdução ao HTML</h1>
+         <p>HTML é uma linguagem de marcação padrão para criar páginas da web</p> 
 
-    <figure>
-       <img src="img/html.png" alt="linhas de codigos HTML">
-   </figure>
+       <h3 class="titulos">O que é HTML</h3>
+          <ul class="oquee">
+             <li>HTML significa Linguagem de Marcação de Hipertexto</li>
+             <li>HTML é a linguagem de marcação padrão para criar páginas da Web.</li>
+             <li>HTML descreve a estrutura de uma página da Web</li>
+             <li>HTML consiste em uma série de elementos</li>
+             <li>Elementos HTML dizem ao navegador como exibir o conteúdo</li>
+             <li>Elementos HTML rotulam partes do conteúdo, como "este é um cabeçalho", "este é um parágrafo", "este é um link", etc.</li>
+          </ul>                      
 
-   <h2>O que é CSS</h2>
 
-       <p>As CSS são as Cascading Style Sheets (Folhas de Estilo em Cascata).
-       elas são usadas para configurar um resultado visual dos elementos HTML
-       </p>
+         <h2 class="titulos">Estrutura Básica do HTML</h2>
+         <figure>
+           <img src="img/html.png" alt="linhas de codigos HTML">
+         </figure><!--div HTML-->
+    </div>
 
-       <p><small>Um exemplo claro disso e uma casa, o HTML e toda a construção. Paredes, telhados... E a decoração sendo o CSS, como a cor da parede ou o formato do telhado.</small></p>
+    <div>
 
-       <p><a href="https://github.com/rinaarantes" target="_black">contato</a></p>
+       <h3 class="titulos">Tipo de CSS</h3>   
+          <ul class="oquee">
+             <li>Inline - usando o atributo style dentro dos elementos HTML</li>
+             <li>Interno - usando um elemento style na seção head.</li>
+             <li>HExterno - usando um elemento link para vincular a um arquivo CSS externoTML descreve a estrutura de uma página da Web</li>
+          </ul>
+ 
+        <h3 class="titulos">O que é CSS</h3>
+           <ul class="oquee">
+             <li>CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata.</li>
+             <li>HTML é a linguagem de marcação padrão para criar páginas da Web.</li>
+             <li>É a linguagem usada para descrever a apresentação de uma página da Web.</li>
+             <li>Define como os elementos HTML devem ser exibidos na tela, no papel ou em outros meios.</li>
+             <li>Permite controlar cores, fontes, tamanhos, espaçamentos, layouts e muito mais</li>
+             <li>om CSS, é possível criar páginas mais atraentes, responsivas e padronizadas.</li>
+          </ul>        
+
+
+
+
+
+          <p><small>Um exemplo claro disso e uma casa, o HTML e toda a construção. Paredes, telhados... E a decoração sendo o CSS, como a cor da parede ou o formato do telhado.</small></p><!--div CSS-->
+    </div>
+  
+ </div>
+ 
+   <footer>
+
+     <p><a href="https://github.com/rinaarantes" target="_black">contato</a></p>
+    <p class="titulos"><a href="js.html" target="_black">Veja mais!</a></p>
+    <p class="titulos"><a href="posicionamento.html" target="_black">extra</a></p>
+
+   </footer>
 
 </body>
 </html>
